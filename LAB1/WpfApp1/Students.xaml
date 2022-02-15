@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.Students"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Students" Height="600" Width="500">
+    <Grid Background="#FF9EFCFF" x:Name="BaseGrid">
+        <Button Content="AddStudent" x:Name="AddStudent" HorizontalAlignment="Left" Height="78" Margin="354,439,0,0" VerticalAlignment="Top" Width="116"/>
+        <Button Content="DeleteStudent" x:Name="DeleteStudent" HorizontalAlignment="Left" Height="79" Margin="354,326,0,0" VerticalAlignment="Top" Width="114"/>
+        <TextBox HorizontalAlignment="Left" Height="161" Margin="46,114,0,0" Text="Data" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" x:Name="Data"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="73" x:Name="Exit"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Text="ID" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" x:Name="ID" Margin="36,332,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Text="Name" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="36,376,0,0" x:Name="FName"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Text="Surname" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="36,420,0,0" x:Name="Surname"/>
+        <TextBox HorizontalAlignment="Left" Height="39" Text="Group" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Margin="36,464,0,0" x:Name="Group"/>
+
+    </Grid>
+</Window>
