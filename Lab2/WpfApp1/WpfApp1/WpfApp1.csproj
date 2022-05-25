@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="download.png" />
+    <None Remove="giphy.gif" />
+    <None Remove="png-transparent-tic-tac-toe-game-tree-others-game-angle-text.png" />
+    <None Remove="tic-tac-toe-323bf0bf25f0924747f6d8b96af2a1d9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="download.png" />
+    <Resource Include="giphy.gif" />
+    <Resource Include="png-transparent-tic-tac-toe-game-tree-others-game-angle-text.png" />
+    <Resource Include="tic-tac-toe-323bf0bf25f0924747f6d8b96af2a1d9.png" />
+  </ItemGroup>
+
+</Project>

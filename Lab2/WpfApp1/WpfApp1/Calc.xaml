@@ -1,0 +1,31 @@
+﻿<Window x:Name="Lab1" x:Class="WpfApp1.Calc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Calc" Height="600" Width="500">
+    <Grid Background="#FF9EFCFF" x:Name="BaseGrid">
+        <TextBox HorizontalAlignment="Center" Height="121" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="500"  FontSize="70" x:Name="Summary" Margin="0,91,0,0"/>
+        <Button Content="4" HorizontalAlignment="Left" Height="93" Margin="0,305,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF7915D"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="93" Margin="125,305,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF7C75D"/>
+        <Button Content="6" Height="93" Margin="250,305,0,0" VerticalAlignment="Top" FontSize="50" Background="#FFA1F75D" HorizontalAlignment="Left" Width="125"/>
+        <Button Content="-" HorizontalAlignment="Left" Height="93" Margin="375,305,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FF5DF7CD"/>
+        <Button Content="7" HorizontalAlignment="Left" Height="93" Margin="0,398,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF7705D"/>
+        <Button Content="8" HorizontalAlignment="Left" Height="93" Margin="125,398,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF78C5D"/>
+        <Button Content="9" HorizontalAlignment="Left" Height="93" Margin="250,398,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFE195FB"/>
+        <Button Content="*" HorizontalAlignment="Left" Height="93" Margin="375,398,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FF5DD1F7"/>
+        <Button Content="=" HorizontalAlignment="Left" Height="93" Margin="0,491,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF75545"/>
+        <Button Content="0" HorizontalAlignment="Left" Height="93" Margin="125,491,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF75D96"/>
+        <Button Content="AC" HorizontalAlignment="Left" Height="93" Margin="250,491,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFD05DF7"/>
+        <Button Content="/" HorizontalAlignment="Left" Height="93" Margin="375,491,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click" FontSize="50" Background="#FF8281F7"/>
+        <Button Content="1" HorizontalAlignment="Left" Height="93" Margin="0,212,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF7C77B"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="93" Margin="125,212,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFF7F45D"/>
+        <Button Content="3" HorizontalAlignment="Left" Height="93" Margin="250,212,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FFBDF75D"/>
+        <Button Content="+" HorizontalAlignment="Left" Height="93" Margin="375,212,0,0" VerticalAlignment="Top" Width="125" FontSize="50" Background="#FF81F7A4"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Height="91" VerticalAlignment="Top" Width="100" FontSize="50"  Background="#FFFEAECB" Name="Exit"/>
+    </Grid>
+
+
+</Window>
