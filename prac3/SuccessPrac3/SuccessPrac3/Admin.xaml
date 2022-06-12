@@ -1,0 +1,47 @@
+﻿<Window x:Class="SuccessPrac3.Admin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuccessPrac3"
+        mc:Ignorable="d"
+        Title="Admin" Height="528" Width="1038">
+    <Grid>
+        <Label Content="пароль адміністратора" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="LogInButton" Content="LogIn" HorizontalAlignment="Left" Margin="154,25,0,0" VerticalAlignment="Top" Click="LogInButton_Click"/>
+        <Label x:Name="UserView" Content="UserView" HorizontalAlignment="Left" Margin="19,73,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="dataGrid" Margin="0,104,731,0" IsReadOnly="True"/>
+        <Label Content="Change Admin Password" HorizontalAlignment="Left" Margin="598,23,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="OldPassword" HorizontalAlignment="Left" Margin="424,73,0,0" VerticalAlignment="Top"/>
+        <Label Content="NewPassword" HorizontalAlignment="Left" Margin="583,73,0,0" VerticalAlignment="Top"/>
+        <Label Content="NewPassword" HorizontalAlignment="Left" Margin="763,73,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="UpdatePasswd" Content="Update" HorizontalAlignment="Left" Margin="929,93,0,0" VerticalAlignment="Top" Click="UpdatePasswd_Click"/>
+        <Label Content="UserData" HorizontalAlignment="Left" Margin="354,154,0,0" VerticalAlignment="Top" FontWeight="Bold" FontStyle="Italic"/>
+        <Label x:Name="UserNameSelected" Content="Name" HorizontalAlignment="Left" Margin="435,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.553,0.668"/>
+        <Label x:Name="UserSurnameSelected" Content="SurName" HorizontalAlignment="Left" Margin="434,238,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="UserLoginSelected" Content="Login" HorizontalAlignment="Left" Margin="678,194,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="UserStatusSelected" Content="Status" HorizontalAlignment="Left" Margin="679,238,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Prev" Content="Previous" HorizontalAlignment="Left" Margin="359,308,0,0" VerticalAlignment="Top" Click="Prev_Click"/>
+        <Button x:Name="Next" Content="Next" HorizontalAlignment="Left" Margin="790,308,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.663,1.614" Click="Next_Click"/>
+        <Label x:Name="UserRestrictionSelected" Content="PasswordLimitation" HorizontalAlignment="Left" Margin="625,305,0,0" VerticalAlignment="Top"/>
+        <Label Content="AddUser" HorizontalAlignment="Left" Margin="357,351,0,0" VerticalAlignment="Top" FontSize="15" FontWeight="Bold" FontStyle="Italic"/>
+        <Button x:Name="AddUser" Content="AddUser" HorizontalAlignment="Left" Margin="324,462,0,0" VerticalAlignment="Top" Click="AddUser_Click"/>
+        <Label Content="User" HorizontalAlignment="Left" Margin="324,396,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.562,0.597"/>
+        <ComboBox HorizontalAlignment="Left" Margin="374,398,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="Activity" HorizontalAlignment="Left" Margin="594,378,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="PasswordLimitations" HorizontalAlignment="Left" Margin="594,404,0,0" VerticalAlignment="Top"/>
+        <Button Content="SetActivity" HorizontalAlignment="Left" Margin="745,371,0,0" VerticalAlignment="Top"/>
+        <Button Content="SetLimiations" HorizontalAlignment="Left" Margin="755,402,0,0" VerticalAlignment="Top" />
+        <Label Content="UserName" HorizontalAlignment="Left" Margin="341,194,0,0" VerticalAlignment="Top"/>
+        <Label Content="UserSurName" HorizontalAlignment="Left" Margin="340,238,0,0" VerticalAlignment="Top"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="604,194,0,0" VerticalAlignment="Top"/>
+        <Label Content="UserStatus" HorizontalAlignment="Left" Margin="604,238,0,0" VerticalAlignment="Top"/>
+        <Label Content="PasswordLimitations" HorizontalAlignment="Center" Margin="0,305,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="RealAdminPasswd" HorizontalAlignment="Left" Margin="404,104,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="NewAdminPasswd" HorizontalAlignment="Left" Margin="565,104,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="NewAdminPasswd2" HorizontalAlignment="Left" Margin="744,103,0,0" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="AdminPasswd" HorizontalAlignment="Left" Margin="19,41,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="AddingUserLogin" HorizontalAlignment="Left" Margin="435,357,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
